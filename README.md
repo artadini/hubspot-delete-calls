@@ -21,14 +21,6 @@ You can deploye this using [GitHub actions](https://github.com/features/actions)
 ## How to run it
 
 Start the docker container and run it.<br>
-The Docker container will include also a CRON job that will activate the script every min during work hours and during the week only.
-
-### Starting the Docker container
-
-Navigate with to the directory containing the `Dockerfile`.<br>
-`docker build .`<br>
-`docker run hs_zoom_calls`<br>
-`docker logs -f hs_zoom_calls --since 60m`
 
 ## Additional documentation
 * [Calls API documentation](https://developers.hubspot.com/docs/api/crm/calls)
