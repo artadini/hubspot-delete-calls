@@ -8,7 +8,6 @@ To address this, a technical solution was conceived: a granular filter designed 
 This script will delete incoming recorded from the default souce: Zoom.<br>
 The code runs by default every 15 minutes, please amend this in main.py.<br>
 See filters.py to change the filter criteria.<br>
-<br><br>
 
 ## How it runs
 1. Search HubSpot calls using the filters in filters.py.
